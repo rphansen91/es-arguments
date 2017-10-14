@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "jest --coverage --watch"
   },
-  "author": "",
+  "author": "Ryan P. Hansen",
   "license": "ISC",
   "dependencies": {
     "recast": "^0.12.7"

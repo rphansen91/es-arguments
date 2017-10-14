@@ -5,6 +5,8 @@ describe('Function argument names', () => {
     [1, []],
     ['string', []],
     [true, []],
+    [function () {}, []],
+    [function (arg1, arg2) {}, ['arg1', 'arg2']],
     [function name () {}, []],
     [function name (arg1, arg2) {}, ['arg1', 'arg2']],
     [function name (arg1=1, arg2=2) {}, ['arg1', 'arg2']],
