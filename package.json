@@ -1,6 +1,6 @@
 {
   "name": "es-arguments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the argument names of any es method",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,23 @@
   },
   "author": "Ryan P. Hansen",
   "license": "ISC",
+  "keywords": [
+    "es6",
+    "Reflection",
+    "arguments",
+    "parameters"
+  ],
   "dependencies": {
     "recast": "^0.12.7"
   },
   "devDependencies": {
     "jest": "^21.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rphansen91/es-arguments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rphansen91/es-arguments/issues"
   }
 }
