@@ -10,6 +10,8 @@ function pluckParamName (param) {
   if (param.name) return param.name
   if (param.left) return pluckParamName(param.left)
   if (param.properties) return pluckPattern(param.properties)
+  if (param.type === 'RestElement') return '...' + pluckParamName(param.argument)
+  return
 }
 
 module.exports = function (method) {

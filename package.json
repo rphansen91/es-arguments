@@ -1,6 +1,6 @@
 {
   "name": "es-arguments",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the argument names of any es method",
   "main": "index.js",
   "scripts": {

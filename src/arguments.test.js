@@ -17,6 +17,7 @@ describe('Function argument names', () => {
     [({ arg1, arg2 }) => {}, ['{ arg1, arg2 }']],
     [(args = { arg1, arg2 }) => {}, ['args']],
     [arg1 => {}, ['arg1']],
+    [(...args) => {}, ['...args']]
   ].map(t => test(t[0].toString(), () => {
     expect(getArguments(t[0])).toEqual(t[1])
   }))
